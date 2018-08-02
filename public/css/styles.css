@@ -1,0 +1,140 @@
+/* Additional styles after Bootstrap styles */
+
+body {
+  font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "SF Display", "Helvetica", "Arial", "Roboto", sans-serif;
+}
+
+.border-gray {
+  border-color: #ced4da;
+}
+
+/* Buttons */
+
+.btn-gray {
+  color: black;
+  background-color: white;
+  background-image: none;
+  border-color: #ced4da !important;
+}
+
+.btn-gray:hover {
+  background-color: #e9ecef;
+}
+
+.btn-twitter {
+  color: #fff;
+  background-color: #1da1f2 !important;
+  border-color: #1da1f2;
+}
+.btn-twitter:hover {
+  background-color: #1da1f2 !important;
+}
+
+/* Results */
+
+.hover-gray tr:hover {
+  background-color: #e9ecef;
+}
+
+img.icon { /* Category icons for places */ 
+  width: 25px;
+  height: 25px;
+}
+
+.bg-selected {
+  background-color: rgb(253, 217, 139);
+}
+
+.rating {
+  font-size: 12px;
+  margin-bottom: -2px;
+  display: inline-block;
+  color: rgb(233, 110, 29);
+}
+.rating-star {
+  margin-right: 2px;
+  overflow: hidden;
+}
+
+/* Photos */
+
+.brick {
+  width: 100%;
+}
+
+/* Angular animations: Fade */
+
+.animate-fade {
+  opacity: 1;
+}
+
+.animate-fade.ng-hide {
+  opacity: 0;
+}
+
+.animate-fade.ng-hide-remove{
+  transition: all linear 0.5s;
+}
+
+/* Angular animations: Slide */
+
+.animate-slide-from-left, .animate-slide-from-right {
+  left: 0px;
+  right: 0px;
+}
+
+.animate-slide-from-left.ng-hide {
+  left: -1000px;
+  right: 1000px;
+}
+
+.animate-slide-from-right.ng-hide {
+  left: 1000px;
+  right: -1000px;
+}
+
+.animate-slide-from-right.ng-hide-remove, .animate-slide-from-left.ng-hide-remove{
+  transition: all linear 0.5s;
+}
+
+/* Maps */
+
+#maps-to {
+  font-weight: bold;
+}
+
+#map-toggle {
+  height: 40px;
+  width: 38px;
+}
+
+#map {
+  z-index: 1;
+  height: 400px;
+  background-color: grey;
+}
+
+#directions-panel {
+  z-index: 1;
+  height: 1px;
+}
+
+/* Reviews */
+
+.square {
+  background-size: cover;
+  width: 95%;
+}
+
+.square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+/* To display white blank space below table as in video */
+
+#scrollspace {
+  height: 200px;
+  width: 100%;
+}

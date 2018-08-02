@@ -1,0 +1,30 @@
+{
+  "name": "hw8_taes",
+  "version": "1.0.0",
+  "description": "Coursework for CSCI 571 Web Technologies",
+  "main": "app.js",
+  "start": "node app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Siddhesh Rajiv Karekar",
+  "license": "ISC",
+  "dependencies": {
+    "@google/maps": "^0.4.5",
+    "angular": "^1.6.9",
+    "angular-animate": "^1.6.9",
+    "angular-google-maps": "^2.4.1",
+    "angular-route": "^1.6.9",
+    "bootstrap": "^4.0.0",
+    "express": "^4.16.3",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "moment": "^2.21.0",
+    "ngmap": "^1.18.4",
+    "ngstorage": "^0.3.11",
+    "popper.js": "^1.14.1",
+    "request": "^2.85.0",
+    "serve-favicon": "^2.4.5",
+    "yelp-fusion": "^2.0.3"
+  }
+}
