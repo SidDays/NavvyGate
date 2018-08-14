@@ -1,7 +1,7 @@
 /* Additional styles after Bootstrap styles */
 
 body {
-  font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "SF Display", "Helvetica", "Arial", "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "San Francisco", "Helvetica Neue", Helvetica, "Arial", "Roboto", sans-serif;
 }
 
 .border-gray {
