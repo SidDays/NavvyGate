@@ -1,11 +1,16 @@
 {
   "name": "hw8_taes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sidrk/TravelEntSearch.git"
+  },
   "version": "1.0.0",
   "description": "Coursework for CSCI 571 Web Technologies",
   "main": "app.js",
   "start": "node app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "Siddhesh Rajiv Karekar",
   "license": "ISC",
@@ -16,6 +21,7 @@
     "angular-google-maps": "^2.4.1",
     "angular-route": "^1.6.9",
     "bootstrap": "^4.0.0",
+    "ejs": "^2.6.1",
     "express": "^4.16.3",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
