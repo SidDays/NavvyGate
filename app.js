@@ -152,7 +152,7 @@ app.get("/yelpmatchreviews", function (req, res) {
 });
 
 // Tell Express to listen for requests (start server)
-app.listen(8081, function () {
+app.listen(process.env.PORT || 8081, function () {
   console.log('Server started at ' + moment().format('h:mm a'));
 });
 
