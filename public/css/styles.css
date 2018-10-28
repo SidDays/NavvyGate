@@ -4,6 +4,11 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "San Francisco", "Helvetica Neue", Helvetica, "Arial", "Roboto", sans-serif;
 }
 
+.favicon {
+  height: 2em;
+  width: auto;
+}
+
 .border-gray {
   border-color: #ced4da;
 }
