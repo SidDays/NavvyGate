@@ -15,22 +15,22 @@
   "author": "Siddhesh Rajiv Karekar",
   "license": "ISC",
   "dependencies": {
-    "@google/maps": "^0.4.5",
-    "angular": "^1.6.9",
-    "angular-animate": "^1.6.9",
+    "@google/maps": "^0.4.6",
+    "angular": "^1.7.5",
+    "angular-animate": "^1.7.5",
     "angular-google-maps": "^2.4.1",
-    "angular-route": "^1.6.9",
-    "bootstrap": "^4.0.0",
+    "angular-route": "^1.7.5",
+    "bootstrap": "^4.1.3",
     "ejs": "^2.6.1",
-    "express": "^4.16.3",
+    "express": "^4.16.4",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
-    "moment": "^2.21.0",
+    "moment": "^2.22.2",
     "ngmap": "^1.18.4",
     "ngstorage": "^0.3.11",
-    "popper.js": "^1.14.1",
-    "request": "^2.85.0",
-    "serve-favicon": "^2.4.5",
-    "yelp-fusion": "^2.0.3"
+    "popper.js": "^1.14.4",
+    "request": "^2.88.0",
+    "serve-favicon": "^2.5.0",
+    "yelp-fusion": "^2.2.1"
   }
 }
